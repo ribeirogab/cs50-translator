@@ -1,2 +1,2 @@
-# cs50-translator
-Subtitle translator for the course: HarvardX: CS50
+# CS50 Translator
+In development ... I promise it won't be long!
