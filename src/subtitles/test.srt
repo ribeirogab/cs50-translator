@@ -1,0 +1,203 @@
+0
+00:00:00,000 --> 00:00:03,479
+[MUSIC PLAYING]
+
+1
+00:00:03,479 --> 00:01:23,150
+
+
+2
+00:01:23,150 --> 00:01:26,360
+DAVID MALAN: This is CS50, Harvard University's introduction
+
+3
+00:01:26,360 --> 00:01:28,730
+for the intellectual enterprises of computer science
+
+4
+00:01:28,730 --> 00:01:30,170
+and the art of programming.
+
+5
+00:01:30,170 --> 00:01:32,660
+My name is David Malan, and I actually took this course
+
+6
+00:01:32,660 --> 00:01:35,710
+myself sophomore year some years ago.
+
+7
+00:01:35,710 --> 00:01:36,980
+But I almost didn't.
+
+8
+00:01:36,980 --> 00:01:39,540
+At the time, I was quite uneasy with the idea,
+
+9
+00:01:39,540 --> 00:01:42,720
+frankly, of taking a computer science course, let alone this course.
+
+10
+00:01:42,720 --> 00:01:44,512
+And so my freshman year, at least, I really
+
+11
+00:01:44,512 --> 00:01:46,340
+gravitated toward courses and departments
+
+12
+00:01:46,340 --> 00:01:48,860
+with which I was much more familiar.
+
+13
+00:01:48,860 --> 00:01:52,432
+Computer science was well beyond my comfort zone at the time,
+
+14
+00:01:52,432 --> 00:01:54,140
+and it was really these unfamiliar waters
+
+15
+00:01:54,140 --> 00:01:57,290
+that I wasn't quite ready to shop, even my first year.
+
+16
+00:01:57,290 --> 00:02:01,070
+But sophomore year, I finally got up the nerve to come through the door of CS50,
+
+17
+00:02:01,070 --> 00:02:05,160
+and only because the professor at the time let me take the course pass/fail.
+
+18
+00:02:05,160 --> 00:02:06,110
+I was that uneasy.
+
+19
+00:02:06,110 --> 00:02:09,240
+And if only I had known at the time what I now know,
+
+20
+00:02:09,240 --> 00:02:12,320
+which is that 2/3 of CS50 students have never
+
+21
+00:02:12,320 --> 00:02:14,270
+taken a computer science course before.
+
+22
+00:02:14,270 --> 00:02:18,230
+So if you are feeling similarly uneasy with the idea of trying something new,
+
+23
+00:02:18,230 --> 00:02:20,140
+or even if you have prior background but are
+
+24
+00:02:20,140 --> 00:02:21,890
+looking to fill in gaps in your knowledge,
+
+25
+00:02:21,890 --> 00:02:23,930
+or if you're particularly self-taught, realize
+
+26
+00:02:23,930 --> 00:02:25,880
+you are very much in good company.
+
+27
+00:02:25,880 --> 00:02:27,770
+And ultimately, what matters in this course
+
+28
+00:02:27,770 --> 00:02:30,330
+is not so much where you end up relative to your classmates,
+
+29
+00:02:30,330 --> 00:02:34,160
+but where you end up relative to yourself when you began, which is,
+
+30
+00:02:34,160 --> 00:02:35,570
+of course, today.
+
+31
+00:02:35,570 --> 00:02:37,730
+So what, then, is computer science?
+
+32
+00:02:37,730 --> 00:02:39,970
+And what was it that I was so uneasy with?
+
+33
+00:02:39,970 --> 00:02:42,410
+Well, I dare say we can describe computer science as this.
+
+34
+00:02:42,410 --> 00:02:44,512
+It's just the process of solving problems.
+
+35
+00:02:44,512 --> 00:02:46,220
+And what does it mean to solve a problem?
+
+36
+00:02:46,220 --> 00:02:47,510
+You've got some input.
+
+37
+00:02:47,510 --> 00:02:52,100
+And the goal is to get some output, the solution, to that particular problem.
+
+38
+00:02:52,100 --> 00:02:54,540
+And in between, really, is computer science.
+
+39
+00:02:54,540 --> 00:02:57,290
+And we'll see what's in this literal black box on the screen
+
+40
+00:02:57,290 --> 00:02:59,610
+as we begin to fill in some of those blanks.
+
+41
+00:02:59,610 --> 00:03:02,618
+But when we consider a problem to be solved,
+
+42
+00:03:02,618 --> 00:03:05,660
+we have to all agree from the get-go, especially if we're using machines,
+
+43
+00:03:05,660 --> 00:03:08,460
+how are we going to represent these inputs and outputs?
+
+44
+00:03:08,460 --> 00:03:11,120
+And so one of the first concepts we explore in computer science
+
+45
+00:03:11,120 --> 00:03:14,210
+is how you represent information itself.
+
+46
+00:03:14,210 --> 00:03:16,580
+And odds are you probably know coming into this course
+
+47
+00:03:16,580 --> 00:03:19,752
+that computers only speak what language, so to speak?
+
+48
+00:03:19,752 --> 00:03:20,460
+AUDIENCE: Binary.
+
+49
+00:03:20,460 --> 00:03:20,680
+DAVID MALAN: Yeah.
+
+50
+00:03:20,680 --> 00:03:21,333
+So binary.

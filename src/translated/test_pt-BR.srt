@@ -1,0 +1,203 @@
+0
+00:00:00,000 --> 00:00:03,479
+[MÚSICA, TOCANDO]
+
+1
+00:00:03,479 --> 00:01:23,150
+
+
+2
+00:01:23,150 --> 00:01:26,360
+DAVID MALAN: Este é o CS50, a introdução da Universidade de Harvard
+
+3
+00:01:26,360 --> 00:01:28,730
+para as empresas intelectuais da ciência da computação
+
+4
+00:01:28,730 --> 00:01:30,170
+e a arte da programação.
+
+5
+00:01:30,170 --> 00:01:32,660
+Meu nome é David Malan, e eu realmente fiz este curso
+
+6
+00:01:32,660 --> 00:01:35,710
+eu mesmo no segundo ano, alguns anos atrás.
+
+7
+00:01:35,710 --> 00:01:36,980
+Mas eu quase não fiz.
+
+8
+00:01:36,980 --> 00:01:39,540
+Na época, eu estava bastante desconfortável com a ideia,
+
+9
+00:01:39,540 --> 00:01:42,720
+francamente, de fazer um curso de ciência da computação, e muito menos deste curso.
+
+10
+00:01:42,720 --> 00:01:44,512
+E assim, no meu primeiro ano, pelo menos, eu realmente
+
+11
+00:01:44,512 --> 00:01:46,340
+gravitado em direção a cursos e departamentos
+
+12
+00:01:46,340 --> 00:01:48,860
+com o qual eu estava muito mais familiarizado.
+
+13
+00:01:48,860 --> 00:01:52,432
+A ciência da computação estava muito além da minha zona de conforto na época,
+
+14
+00:01:52,432 --> 00:01:54,140
+e eram realmente essas águas desconhecidas
+
+15
+00:01:54,140 --> 00:01:57,290
+que eu não estava pronta para comprar, mesmo no meu primeiro ano.
+
+16
+00:01:57,290 --> 00:02:01,070
+Mas no segundo ano, eu finalmente tive a coragem de entrar pela porta do CS50,
+
+17
+00:02:01,070 --> 00:02:05,160
+e apenas porque o professor da época me deixou passar no curso / reprovado.
+
+18
+00:02:05,160 --> 00:02:06,110
+Eu estava tão desconfortável.
+
+19
+00:02:06,110 --> 00:02:09,240
+E se eu soubesse na época o que agora sei,
+
+20
+00:02:09,240 --> 00:02:12,320
+ou seja, 2/3 dos alunos do CS50 nunca
+
+21
+00:02:12,320 --> 00:02:14,270
+fez um curso de ciência da computação antes.
+
+22
+00:02:14,270 --> 00:02:18,230
+Portanto, se você estiver se sentindo igualmente desconfortável com a ideia de tentar algo novo,
+
+23
+00:02:18,230 --> 00:02:20,140
+ou mesmo se você tiver experiência anterior, mas estiver
+
+24
+00:02:20,140 --> 00:02:21,890
+procurando preencher lacunas no seu conhecimento,
+
+25
+00:02:21,890 --> 00:02:23,930
+ou se você é particularmente autodidata, perceba
+
+26
+00:02:23,930 --> 00:02:25,880
+você está em boa companhia.
+
+27
+00:02:25,880 --> 00:02:27,770
+E, finalmente, o que importa neste curso
+
+28
+00:02:27,770 --> 00:02:30,330
+não é tanto onde você acaba em relação aos seus colegas de classe,
+
+29
+00:02:30,330 --> 00:02:34,160
+mas onde você termina em relação a si mesmo quando começou, ou seja,
+
+30
+00:02:34,160 --> 00:02:35,570
+claro hoje.
+
+31
+00:02:35,570 --> 00:02:37,730
+Então, o que é ciência da computação?
+
+32
+00:02:37,730 --> 00:02:39,970
+E com o que eu estava tão desconfortável?
+
+33
+00:02:39,970 --> 00:02:42,410
+Bem, ouso dizer que podemos descrever a ciência da computação dessa maneira.
+
+34
+00:02:42,410 --> 00:02:44,512
+É apenas o processo de resolver problemas.
+
+35
+00:02:44,512 --> 00:02:46,220
+E o que significa resolver um problema?
+
+36
+00:02:46,220 --> 00:02:47,510
+Você tem alguma entrada.
+
+37
+00:02:47,510 --> 00:02:52,100
+E o objetivo é obter alguma saída, a solução, para esse problema específico.
+
+38
+00:02:52,100 --> 00:02:54,540
+E no meio, realmente, está a ciência da computação.
+
+39
+00:02:54,540 --> 00:02:57,290
+E veremos o que há nessa caixa preta literal na tela
+
+40
+00:02:57,290 --> 00:02:59,610
+quando começamos a preencher alguns desses espaços em branco.
+
+41
+00:02:59,610 --> 00:03:02,618
+Mas quando consideramos um problema a ser resolvido,
+
+42
+00:03:02,618 --> 00:03:05,660
+todos temos que concordar desde o início, especialmente se estivermos usando máquinas,
+
+43
+00:03:05,660 --> 00:03:08,460
+como vamos representar essas entradas e saídas?
+
+44
+00:03:08,460 --> 00:03:11,120
+E assim, um dos primeiros conceitos que exploramos na ciência da computação
+
+45
+00:03:11,120 --> 00:03:14,210
+é como você representa a própria informação.
+
+46
+00:03:14,210 --> 00:03:16,580
+E provavelmente você sabe que entrará neste curso
+
+47
+00:03:16,580 --> 00:03:19,752
+que os computadores falam apenas qual idioma, por assim dizer?
+
+48
+00:03:19,752 --> 00:03:20,460
+AUDIÊNCIA: Binário.
+
+49
+00:03:20,460 --> 00:03:20,680
+DAVID MALAN: Sim.
+
+50
+00:03:20,680 --> 00:03:21,333
+Tão binário.
