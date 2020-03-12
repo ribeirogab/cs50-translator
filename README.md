@@ -119,7 +119,7 @@ Para facilitar novamente, irei fazer alguns pequenos tutoriais de como implement
 
 ### macOS
 * Em breve...
-* [YouTube](https://www.youtube.com/results?search_query=como+colocar+legenda+mac)
+* [YouTube](https://www.youtube.com/watch?v=F8P4QHZszHA)
 
 ### Linux
 * Em breve...
