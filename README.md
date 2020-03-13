@@ -136,7 +136,7 @@ Distribuído sob a licença MT. Veja ```LICENSE``` para mais informações.
 [https://github.com/ribeirogab/cs50-translator](https://github.com/ribeirogab/cs50-translator)
 
 ## Contribuindo
-1. Faça um Fork ( https://github.com/yourname/yourproject/fork )
+1. Faça um Fork ( https://github.com/ribeirogab/cs50-translator )
 2. Crie sua feature branch ( git checkout -b feature/fooBar)
 2. Commit suas alterações ( git commit -am 'Add some fooBar')
 4. Realize o Push para a branch ( git push origin feature/fooBar)
